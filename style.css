@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: lightcoral;
+}
+
+button{
+    
+}
+
+/* small */
+@media screen and (max-width:600px){
+
+    body{
+        background-color: lightgreen;
+    }
+    
+}
+
+/* normal */
+@media screen and (min-width:600px) and (max-width:768px) {
+
+    body{
+        background-color: lightblue; 
+     }
+    
+}
+
+/* big */
+@media screen and (min-width:768px) and (max-width:992px) {
+
+    body{
+        background-color: rgb(155, 108, 199);
+    }
+    
+}
